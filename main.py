@@ -2,5 +2,6 @@
 
 print("Workflow refresher script is running...")
 
-status = "feeling good"
-print("Current status:", status)
+project_name = input("What is the project name?")
+
+print("This project is:", project_name)
